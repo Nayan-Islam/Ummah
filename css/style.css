@@ -1,0 +1,1385 @@
+/* ==========================================
+            common css part start
+============================================= */
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.clr{
+    clear: both;
+}
+
+
+.title{
+    text-align: center;
+    padding: 100px 0 80px 0;
+}
+.title p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #00b3d6;
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title h2{
+    color: #242f6c;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* ==========================================
+             common css part end
+============================================= */
+/* ==========================================
+             header css part start
+============================================= */
+header{
+    width: 100%;
+    border-bottom: 1px solid #dfe2e6;
+}
+
+header .phone{
+    width: 12%;
+    float: left;
+    border-right: 1px solid #dfe2e6;
+}
+
+header .phone i{
+    color: #666;
+    font-size: 14px;
+}
+
+header .phone p{
+    color: #666;
+    font-size: 14px;
+    font-weight: 400px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px 15px 15px 0;
+    display: inline-block;
+}
+
+header .e-mail{
+    width: 23%;
+    float: left;
+}
+
+header .e-mail i{
+    color: #666;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+header .e-mail p{
+    display: inline-block;
+    color: #666;
+    font-size: 14px;
+    font-weight: 400px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px 15px 15px 0;
+}
+
+header .login{
+    width: 49%;
+    float: left;
+    text-align: right;
+    border-right: 1px solid #dfe2e6;
+}
+
+header .login a{
+    text-align: right;
+    color: #666;
+    font-size: 14px;
+    font-weight: 400px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px;
+    display: block;
+    transition: .4s;
+}
+
+header .login a:hover{
+    color: #278ffd;
+}
+
+header .sign-up{
+    width: 15%;
+    float: left;
+}
+
+header .sign-up a{
+    color: #666;
+    font-size: 14px;
+    font-weight: 400px;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+}
+
+header .sign-up .donate{
+    padding: 5px;
+    background: linear-gradient(270deg,#00a7d5,#00ded8);
+    color: #fff;
+    border-radius: 55px;
+    box-shadow: 0 0 0 5px #c8eaf5;
+    transition: .4s;
+}
+
+header .sign-up .donate:hover{
+    background: linear-gradient(270deg,#00ded8,#00a7d5);
+}
+
+header .sign-up .sign{
+    margin: 15px;
+    transition: .4s;
+}
+
+header .sign-up .sign:hover{
+    color: #278ffd;
+}
+
+/* ==========================================
+             header css part end
+============================================= */
+/* ==========================================
+             nav css part start
+============================================= */
+nav{
+    width: 100%;
+    height: 95px;
+}
+
+nav .logo{
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 22px;
+}
+
+nav .logo img{
+    width: 180px;
+}
+
+nav .menu{
+    width: 70%;
+    float: left;
+    padding-left: 80px;
+    box-sizing: border-box;
+}
+
+nav .menu ul li{
+    display: inline-block;
+}
+
+nav .menu ul li a{
+    color: #666;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    display: block;
+    margin: 37px 30px;
+    transition: .4s;
+}
+
+nav .menu ul li a:hover{
+    color: #00a7d5;
+}
+
+nav .icon{
+    width: 10%;
+    float: left;
+}
+
+nav .icon i{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 35px;
+    color: #666;
+    cursor: pointer;
+}
+
+/* ==========================================
+             nav css part end
+============================================= */
+/* ==========================================
+             banner css part start
+============================================= */
+
+#banner{
+    width: 100%;
+    background: url(../images/banner\ bg.png) no-repeat 50%/cover;
+    background-size: cover;
+    position: relative;
+    -webkit-box-shadow: inset 0px 34px 19px -29px #98e0de; 
+    box-shadow: inset 0px 34px 19px -29px #98e0de;
+}
+
+#banner img{
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+}
+
+#banner h3{
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: 'Open Sans', sans-serif;
+    background: #fff;
+    border-radius: 10px;
+    color: #00a7d5;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-top: 200px;
+    box-shadow: 0 0 9px 1px rgba(51,100,219,.1);
+}
+
+#banner h1{
+    font-size: 50px;
+    width: 530px;
+    color: #062265;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+}
+
+#banner p{
+    font-family: 'Open Sans', sans-serif;
+    color: #666;
+    width: 530px;
+    margin: 30px 0;
+}
+
+#banner a{
+    padding: 10px 20px;
+    background: linear-gradient(270deg,#00a7d5,#00ded8);
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 55px;
+    box-shadow: 0 0 0 5px #c8eaf5;
+    transition: .4s;
+    display: inline-block;
+    margin-bottom: 300px;
+}
+
+#banner a:hover{
+    background: linear-gradient(270deg,#00ded8,#00a7d5);
+}
+
+/* ==========================================
+             banner css part end
+============================================= */
+/* ==========================================
+             about css part start
+============================================= */
+
+#about{
+    width: 100%;
+}
+
+#about .abut-left{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+#about .abut-left img{
+    margin: 100px 0;
+}
+
+#about .abut-right{
+    width: 50%;
+    float: left;
+}
+
+#about .abut-right h3{
+    font-family: 'Open Sans', sans-serif;
+    color: #00a7d5;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    margin: 250px 0 10px;
+}
+
+#about .abut-right h2{
+    font-size: 40px;
+    width: 470px;
+    color: #062265;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+}
+
+#about .abut-right p{
+    font-family: 'Open Sans', sans-serif;
+    color: #666;
+    width: 550px;
+    margin: 30px 0 40px;
+}
+
+#about .abut-right a{
+    padding: 10px 20px;
+    background: linear-gradient(270deg,#00a7d5,#00ded8);
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 55px;
+    box-shadow: 0 0 0 5px #c8eaf5;
+    transition: .4s;
+    display: inline-block;
+}
+
+#about .abut-right a:hover{
+    background: linear-gradient(270deg,#00ded8,#00a7d5);
+}
+
+#about .abut-right i{
+    font-size: 20px;
+    color: rgb(0, 167, 213);
+    width: 45px;
+    height: 45px;
+    background: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    margin-left: 15px;
+    -webkit-box-shadow: 0px 0px 13px 0px rgba(0, 167, 213, 0.62);
+    -moz-box-shadow:    0px 0px 13px 0px rgba(0, 167, 213, 0.62);
+    box-shadow:         0px 0px 13px 0px rgba(0, 167, 213, 0.62);
+}
+
+#about .abut-right h4{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: #00a7d5;
+    letter-spacing: -1px;
+    margin-left: 10px;
+    border-bottom: 2px solid #00a7d5;
+}
+
+/* ==========================================
+             about css part end
+============================================= */
+/* ==========================================
+             time css part start
+============================================= */
+#time{
+    width: 100%;
+}
+
+#time .time-bg{
+    background: linear-gradient(1deg,#eaf8fe,#edfef4);
+    padding: 70px;
+    box-sizing: border-box;
+}
+
+#time .time-bg .time-left{
+    width: 50%;
+    height: 450px;
+    float: left;
+    position: relative;
+}
+
+#time .time-bg .time-left h2{
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: #062265;
+}
+
+#time .time-bg .time-left p{
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+#time .time-bg .time-left h4{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: #00a7d5;
+    letter-spacing: -1px;
+    border-bottom: 2px solid #00a7d5;
+}
+
+#time .time-bg .time-left .img-03{
+    position: absolute;
+    left: -125px;
+    top: 254px;
+}
+
+#time .time-bg .time-left .img-02{
+    position: absolute;
+    left: -240px;
+    top: 326px;
+}
+
+#time .time-bg .time-left .img-01{
+    position: absolute;
+    left: 110px;
+    top: 236px;
+}
+
+#time .time-bg .time-right{
+    width: 50%;
+    height: 450px;
+    float: left;
+    position: relative;
+    padding-top: 88px;
+    box-sizing: border-box;
+}
+
+#time .time-bg .time-right .margin-bottom{
+    margin-bottom: 90px;
+}
+
+#time .time-bg .time-right .Fajr{
+    width: 460px;
+    height: 60px;
+    background: linear-gradient(1deg,rgba(14,230,241,.25),rgba(12,159,254,.25));
+    border-radius: 10px;
+    line-height: 60px;
+    position: absolute;
+    left: 69px;
+    top: 15px;
+    color: #02a0a5;
+}
+
+#time .time-bg .time-right .Sunrize{
+    width: 460px;
+    height: 60px;
+    background: linear-gradient(173deg,rgba(255,173,111,.25),rgba(255,125,144,.25));
+    border-radius: 10px;
+    line-height: 60px;
+    color: #df8f73;
+}
+
+#time .time-bg .time-right .Dhuhr{
+    width: 460px;
+    height: 60px;
+    background: linear-gradient(179deg,rgba(216,205,255,.25),rgba(109,100,255,.25));
+    border-radius: 10px;
+    line-height: 60px;
+    position: absolute;
+    left: 69px;
+    top: 163px;
+    color: #6d64ff;
+}
+
+#time .time-bg .time-right .Asr{
+    width: 460px;
+    height: 60px;
+    background: linear-gradient(179deg,rgba(164,228,150,.25),rgba(23,207,137,.25));
+    border-radius: 10px;
+    line-height: 60px;
+    color: #44a884;
+}
+
+#time .time-bg .time-right .Maghrib{
+    width: 460px;
+    height: 60px;
+    background: linear-gradient(179deg,rgba(254,208,237,.25),rgba(255,116,181,.25));
+    border-radius: 10px;
+    line-height: 60px;
+    position: absolute;
+    left: 69px;
+    top: 313px;
+    color: #ee76ba;
+}
+
+#time .time-bg .time-right .Isha{
+    width: 460px;
+    height: 60px;
+    background: linear-gradient(1deg,rgba(14,230,241,.25),rgba(12,159,254,.25));
+    border-radius: 10px;
+    line-height: 60px;
+    color: #419fa2;
+}
+
+#time .time-bg .time-right p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 900;
+    display: inline-block;
+}
+
+#time .time-bg .time-right .space{
+    width: 350px;
+    margin-left: 30px;
+}
+
+/* ==========================================
+             time css part end
+============================================= */
+/* ==========================================
+             islamic school css part start
+============================================= */
+
+#islamic-school{
+    width: 100%;
+    background: url(../images/Islamic\ School-bg.png) no-repeat center;
+    background-size: cover;
+    margin-top: 150px;
+}
+
+#islamic-school .container{
+    padding-bottom: 100px;
+}
+
+
+#islamic-school .islamic-school-l{
+    width: 50%;
+    height: 800px;
+    float: left;
+}
+
+#islamic-school .islamic-school-l h4{
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: 'Open Sans', sans-serif;
+    background: #fff;
+    border-radius: 10px;
+    color: #525252;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 120px;
+    box-shadow: 0 0 9px 1px rgba(51,100,219,.1);
+}
+
+#islamic-school .islamic-school-l h2{
+    font-size: 40px;
+    width: 515px;
+    color: #062265;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+}
+
+#islamic-school .islamic-school-l p{
+    font-family: 'Open Sans', sans-serif;
+    color: #666;
+    width: 520px;
+    margin: 30px 0;
+}
+
+#islamic-school .islamic-school-l .calendar ul{
+    width: 520px;
+    height: 55px;
+    background: linear-gradient(173deg,rgba(255,173,111,.8),#ff7d90);
+    margin-bottom: 2px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0px 0px 23px -2px rgba(0,167,213,0.68);
+    -webkit-box-shadow: 0px 0px 23px -2px rgba(0,167,213,0.68);
+    -moz-box-shadow: 0px 0px 23px -2px rgba(0,167,213,0.68);
+}
+
+#islamic-school .islamic-school-l .first ul{
+    width: 520px;
+    height: 55px;
+    background: #fff;
+    margin-bottom: 2px;
+    border-radius: 5px;
+}
+
+#islamic-school .islamic-school-l .calendar ul li{
+    display: inline-block;
+    margin-left: 20px;
+    width: 150px;
+    line-height: 55px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+#islamic-school .islamic-school-l .first ul li{
+    color: #525252;
+}
+
+#islamic-school .islamic-school-l a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: linear-gradient(270deg,#00a7d5,#00ded8);
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    transition: .4s;
+}
+
+#islamic-school .islamic-school-l a:hover{
+    background: linear-gradient(270deg,#00ded8,#00a7d5);
+}
+
+#islamic-school .islamic-school-r{
+    width: 50%;
+    float: left;
+    margin: 120px 0;
+}
+
+#islamic-school .development-img{
+    width: 50%;
+    float: left;
+}
+
+#islamic-school .development-img img{
+    margin-left: -190px;
+    margin-top: 80px;
+}
+
+#islamic-school .development{
+    width: 50%;
+    float: left;
+    margin-bottom: 200px;
+}
+
+#islamic-school .development h4{
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: 'Open Sans', sans-serif;
+    background: #fff;
+    border-radius: 10px;
+    color: #525252;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 120px;
+    box-shadow: 0 0 9px 1px rgba(51,100,219,.1);
+}
+
+#islamic-school .development h2{
+    font-size: 40px;
+    width: 515px;
+    color: #062265;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+}
+
+#islamic-school .development p{
+    font-family: 'Open Sans', sans-serif;
+    color: #666;
+    width: 520px;
+    margin: 30px 0;
+}
+
+#islamic-school .development ul li{
+    display: inline-block;
+    width: 170px;
+    text-align: center;
+    color: #242f6c;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#islamic-school .development ul li .size{
+    font-size: 40px;
+    color: #00a7d5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#islamic-school .development .text li{
+    font-size: 18px;
+    color: #242f6c;
+    padding-top: 5px;
+    margin-bottom: 0;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+/* ==========================================
+             islamic school css part end
+============================================= */
+/* ==========================================
+             pilars css part start
+============================================= */
+
+#pilars{
+    margin: 100px 0;
+    text-align: center;
+}
+
+#pilars .zoom-out{
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 26px 1px #cacaca; 
+    box-shadow: 0px 0px 25px 2px #cacaca;
+    overflow: hidden;
+    
+}
+
+#pilars img{
+    width: 100%;
+    height: 100%;
+    transition: .4s;
+    transform: scale(1.1);
+    border-radius: 50%;
+}
+
+#pilars img:hover{
+    transform: scale(.98);
+}
+
+#pilars .shahadah{
+    width: 20%;
+    float: left;
+}
+
+#pilars .shahadah h3{
+    font-size: 30px;
+    color: #00b3d6;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+
+#pilars .salah{
+    width: 20%;
+    float: left;
+}
+
+#pilars .salah h3{
+    font-size: 30px;
+    color: #ff7e8f;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+
+#pilars .sawm{
+    width: 20%;
+    float: left;
+}
+
+#pilars .sawm h3{
+    font-size: 30px;
+    color: #6368f3;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+
+#pilars .zakah{
+    width: 20%;
+    float: left;
+}
+
+#pilars .zakah h3{
+    font-size: 30px;
+    color: #ff77b7;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+
+#pilars .hajj{
+    width: 20%;
+    float: left;
+}
+
+#pilars .hajj h3{
+    font-size: 30px;
+    color: #17cf89;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+
+/* ==========================================
+             pilars css part end
+============================================= */
+/* ==========================================
+             event css part start
+============================================= */
+
+#event-part{
+    background: #f0f0f0;
+    padding-bottom: 100px;
+}
+
+#event-part .left{
+    width: 47%;
+    background: #ffffff;
+    float: left;
+    margin: 0 18px;
+    box-sizing: border-box;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 12px 2px rgba(187,187,187,0.5); 
+    box-shadow: 0px 0px 12px 2px rgba(187,187,187,0.5);
+}
+
+#event-part .left .up{
+    position: absolute;
+    left: 0;
+    top: -10px;
+    z-index: 1;
+}
+
+#event-part .left .date{
+    position: absolute;
+    left: 7px;
+    top: 0;
+    z-index: 1;
+}
+
+#event-part .left .date h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#event-part .left .date h3{
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#event-part .left .img .main{
+    transition: .4s;
+    transform: scale(1);
+}
+
+#event-part .left .img{
+    width: 220px;
+    height: 220px;
+    float: left;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#event-part .left .img:hover .main{
+    transform: scale(1.1);
+}
+
+#event-part .left .text{
+    float: left;
+    padding: 23px 35px;
+}
+
+#event-part .left .text h2{
+    color: #242f6c;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#event-part .left .text ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #525252;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#event-part .left .text ul li i{
+    margin-right: 10px;
+}
+
+#event-part .left .text p{
+    width: 220px;
+    color: #777777;
+    line-height: 1.8em;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 17px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#event-part .left .text a{
+    color: #0383c4;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#event-part .right{
+    width: 47%;
+    background: #ffffff;
+    float: left;
+    margin: 0 18px;
+    box-sizing: border-box;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 12px 2px rgba(187,187,187,0.5); 
+    box-shadow: 0px 0px 12px 2px rgba(187,187,187,0.5);
+}
+
+#event-part .right .up-2{
+    position: absolute;
+    left: 0;
+    top: -10px;
+    z-index: 1;
+}
+
+#event-part .right .date{
+    position: absolute;
+    left: 7px;
+    top: 0;
+    z-index: 1;
+}
+
+#event-part .right .date h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#event-part .right .date h3{
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#event-part .right .img img{
+    transition: .4s;
+}
+
+#event-part .right .img{
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    transform: scale(1);
+    cursor: pointer;
+    float: left;
+}
+
+#event-part .right .img:hover img{
+    transform: scale(1.1);
+}
+
+
+#event-part .right .text{
+    float: left;
+    padding: 23px 35px;
+}
+
+#event-part .right .text h2{
+    color: #242f6c;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#event-part .right .text ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #525252;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#event-part .right .text ul li i{
+    margin-right: 10px;
+}
+
+#event-part .right .text p{
+    width: 220px;
+    color: #777777;
+    line-height: 1.8em;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 17px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#event-part .right .text a{
+    color: #0383c4;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ==========================================
+             event css part end
+============================================= */
+/* ==========================================
+             support css part start
+============================================= */
+
+#support-part{
+    margin: 100px 0;
+}
+
+#support-part .left{
+    width: 40%;
+    float: left;
+}
+
+#support-part .left h5{
+    color: #00b3d6;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#support-part .left h2{
+    color: #242f6c;
+    font-weight: 700;
+    font-size: 37px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 0 25px 0;
+}
+
+#support-part .left p{
+    color: #777;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 46px;
+}
+
+#support-part .left a{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 16px 30px;
+    border-radius: 5px;
+    background: linear-gradient(270deg,#00a7d5,#00ded8);
+}
+
+#support-part .left a:hover{
+    background: linear-gradient(270deg,#00ded8,#00a7d5);
+}
+
+#support-part .right{
+    width: 60%;
+    text-align: right;
+    display: inline-block;
+}
+
+#support-part .right .item .a{
+    float: right;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 35px;
+}
+
+#support-part .right .item .a h2{
+    color: #242f6c;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+
+/* ==========================================
+             support css part end
+============================================= */
+/* ==========================================
+             blog css part start
+============================================= */
+
+#blog{
+    background: #f0f0f0;
+    padding-bottom: 300px;
+}
+
+#blog .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#blog .left{
+    width: 30%;
+    background: #fff;
+    box-sizing: border-box;
+    transition: .4s;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(187,187,187,0.63); 
+    box-shadow: 0px 0px 5px 2px rgba(187,187,187,0.63);
+}
+
+#blog .left:hover{
+    background: rgba(0, 178, 214, 0.10);
+    transform: scale(1.05);
+}
+
+#blog .left .blog-img{
+    width: 100%;
+    transition: .4s;
+}
+
+#blog .left .blog-img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#blog .left .text{
+    padding: 20px;
+    position: relative;
+}
+
+#blog .left .text .blog-text{
+    color: #000;
+    font-weight: 700;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    transition: .4s;
+    width: 330px;
+    display: inline-block;
+    margin: 10px 0 35px 0;
+}
+
+#blog .left .blog-text:hover{
+    color: rgb(0, 179, 214);
+}
+
+#blog .left .text a{
+    color: #666;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 10px 15px 55px;
+    display: inline-block;
+}
+
+#blog .left .text a:hover{
+    color: #00b3d6;
+}
+
+#blog .left .text img{
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 115px;
+}
+
+#blog .left .text i{
+    color: #666;
+    font-size: 16px;
+    margin-right: 1px;
+}
+
+#blog .left .text span{
+    color: #666;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ==========================================
+             blog css part end
+============================================= */
+/* ==========================================
+             contact css part start
+============================================= */
+
+#contact{
+    width: 100%;
+}
+
+#contact .email{
+    width: 70%;
+    background: #f9fdfe;
+    margin: auto;
+    padding: 60px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    transform: translateY(-50%);
+    -webkit-box-shadow: 0px 0px 10px 3px rgba(203,203,203,0.76); 
+    box-shadow: 0px 0px 10px 3px rgba(203,203,203,0.76);
+}
+
+#contact .email h2{
+    color: #525252;
+    font-size: 30px;
+    font-weight: 700px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#contact .email p{
+    color: #777;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px 0 20px 0;
+}
+
+#contact .email .mail-box{
+    width: 425px;
+    height: 55px;
+    margin: auto;
+    border-radius: 55px;
+    -webkit-box-shadow: 0px 0px 10px 3px rgba(203,203,203,0.76); 
+box-shadow: 0px 0px 10px 3px rgba(203,203,203,0.76);
+    position: relative;
+}
+
+#contact .email .mail-box input{
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    padding: 0 150px 0 25px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 55px;
+    border: 2px solid #fff;
+    outline: none;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#contact .email .mail-box level{
+    background: linear-gradient(270deg,#00a7d5,#00ded8);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 55px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    position: absolute;
+    right: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#contact .main-contact{
+    width: 100%;
+    margin-top: -55px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+#contact .main-contact .ummah{
+    width: 24%;
+}
+
+#contact .main-contact .ummah img{
+    width: 150px;
+    height: 50px;
+}
+
+#contact .main-contact .ummah p{
+    width: 250px;
+    font-size: 16px;
+    color: #444;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 0;
+}
+
+#contact .main-contact .ummah ul li{
+    display: inline-block;
+    font-size: 22px;
+    color: #00b3d6;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#contact .main-contact .service{
+    width: 24%;
+}
+
+#contact .main-contact .service h2{
+    font-size: 23px;
+    font-weight: 700;
+    color: #525252;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+#contact .main-contact .service ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #525252;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-bottom: 2px solid #fff;
+    transition: .4s;
+}
+
+#contact .main-contact .service ul li a:hover{
+    border-bottom: 2px solid #00b3d6;
+}
+
+#contact .main-contact .last-contact{
+    width: 24%;
+}
+
+#contact .main-contact .last-contact h2{
+    font-size: 23px;
+    font-weight: 700;
+    color: #525252;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+#contact .main-contact .last-contact p{
+    width: 250px;
+    font-size: 16px;
+    color: #444;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 0;
+}
+
+#contact .main-contact .last-contact ul li{
+    font-size: 16px;
+    color: #444;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+}
+
+#contact .main-contact .last-contact ul li i{
+    margin-right: 10px;
+}
+
+/* ==========================================
+             contact css part end
+============================================= */
+/* ==========================================
+             footer css part start
+============================================= */
+
+#footer{
+    width: 100%;
+}
+
+#footer .container{
+    border-top: 1px solid #e3eff0;
+    text-align: center;
+}
+
+#footer .container p{
+    font-size: 16px;
+    color: #444;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px 0;
+}
+
+
+
+
+
+
+/* ==========================================
+             footer css part end
+============================================= */
